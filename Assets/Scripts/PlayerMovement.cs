@@ -9,6 +9,8 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rb;
     public float moveSpeed = 5f;
     public InputAction playerMovement;
+    public Animator animator;
+
 
     Vector2 moveDirection = Vector2.zero;
 
@@ -27,6 +29,10 @@ public class PlayerMovement : MonoBehaviour
     {
         moveDirection.x = Input.GetAxisRaw("Horizontal");
         moveDirection.y = Input.GetAxisRaw("Vertical");
+
+        animator.SetFloat("Horizontal", moveDirection.x);
+        animator.SetFloat("Vertical", moveDirection.y);
+        animator.SetFloat("Speed", moveDirection.sqrMagnitude);
 
         moveDirection = playerMovement.ReadValue<Vector2>();
     }

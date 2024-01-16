@@ -405,6 +405,7 @@ MonoBehaviour:
       m_Action: Player Movement
       m_Flags: 8
     m_Flags: 0
+  animator: {fileID: 2015961768}
 --- !u!50 &2015961767
 Rigidbody2D:
   serializedVersion: 4
