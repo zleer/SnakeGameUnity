@@ -34,6 +34,12 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Vertical", moveDirection.y);
         animator.SetFloat("Speed", moveDirection.sqrMagnitude);
 
+        if (moveDirection != Vector2.zero)
+        {
+            animator.SetFloat("HorizontalIdle", moveDirection.x);
+            animator.SetFloat("VerticalIdle", moveDirection.y);
+        }
+
         moveDirection = playerMovement.ReadValue<Vector2>();
     }
 
