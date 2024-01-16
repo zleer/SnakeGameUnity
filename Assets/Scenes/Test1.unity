@@ -363,6 +363,46 @@ MonoBehaviour:
       m_Groups: 
       m_Action: Player Movement
       m_Flags: 8
+    - m_Name: Arrow Keys
+      m_Id: aee8a358-23f6-4d16-a5d8-f6e76a806f64
+      m_Path: 2DVector
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Player Movement
+      m_Flags: 4
+    - m_Name: up
+      m_Id: 48a34b3a-643a-4e7c-928d-a878ba4f6c85
+      m_Path: <Keyboard>/upArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Player Movement
+      m_Flags: 8
+    - m_Name: down
+      m_Id: aa27302d-876d-48e0-b338-f6e53399c09d
+      m_Path: <Keyboard>/downArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Player Movement
+      m_Flags: 8
+    - m_Name: left
+      m_Id: ec81ed14-6403-400b-b017-64bbeb51813b
+      m_Path: <Keyboard>/leftArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Player Movement
+      m_Flags: 8
+    - m_Name: right
+      m_Id: de03fc27-30c8-42b0-b78b-5332d956ee3c
+      m_Path: <Keyboard>/rightArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Player Movement
+      m_Flags: 8
     m_Flags: 0
 --- !u!50 &2015961767
 Rigidbody2D:
@@ -458,7 +498,7 @@ SpriteRenderer:
   m_Size: {x: 5, y: 5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &2050223783
