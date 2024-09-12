@@ -210046,7 +210046,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.06
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -210112,7 +210112,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 684b65724b9e88547852f09a7c9b6a78, type: 2}
+  - {fileID: 2100000, guid: 2c16e17b680d7d348a8f45cc229c7876, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
